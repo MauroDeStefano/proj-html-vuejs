@@ -1,15 +1,22 @@
 <template>
   <div>
     <Presentation />
+    <MainServices />
+    <LogisticalProcedure />
   </div>
 </template>
 
 <script>
-import Presentation from './Prensentation.vue'
+import Presentation from './Prensentation.vue';
+import MainServices from './MainServices.vue';
+import LogisticalProcedure from './LogisticalProcedure.vue';
+
 export default {
   name: "Main",
   components:{
-    Presentation
+    Presentation,
+    MainServices,
+    LogisticalProcedure
   }
 }
 </script>
