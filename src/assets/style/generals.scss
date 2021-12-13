@@ -1,5 +1,10 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
+.container{
+  min-width: 1000px!important;
+}
+
+
 .mds-btn{
   background-color: #058283;
   border: 1px solid #058283 !important;

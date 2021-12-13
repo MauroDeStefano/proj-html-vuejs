@@ -6,7 +6,7 @@
       <p class="mds-text-gray">We work with innovative methologies to ensure the the entire delivery process is done from start to finish as planned.</p>
     </div>
     <div class="mds-arificial-hr">
-    <div class="row">
+    <div class="row mds-this-row">
       <div class="col mds-logistical-card" v-for="(item, index) in logisticalData" :key="index"> 
         <div class="mds-logistical-number">0{{index + 1}}</div>
         <h5>{{item.name}}</h5>
@@ -43,8 +43,14 @@ export default {
   background-color: #CBE3DE;
 }
 
+.mds-this-row{
+  width: 99%;
+  margin: 0 auto;
+  min-width: 1000px;
+}
+
 .mds-logistical-card{
-  margin-top: -15px;
+  margin-top: -15px!important;
 
   h5{
     color: #1E313E;
