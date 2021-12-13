@@ -6,12 +6,12 @@ export default[
   },
   {
     name: "Medium",
-    maxWeight: 1200,
+    maxWeight: 6000,
     image: require("../img/truck-1.png")
   },
   {
     name: "Heavy",
-    maxWeight: 1200,
+    maxWeight: 24000,
     image: require("../img/truck-1.png")
   }
 ]

@@ -15,6 +15,12 @@
   color: #9D9AA9;
 }
 
+.text-cit{
+  border-left: 5px solid $bg-logo;
+  padding: 15px 30px;
+  font-style: italic;
+}
+
 .text-emp{
   color: $text-logo;
 }
