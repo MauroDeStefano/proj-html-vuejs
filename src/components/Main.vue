@@ -3,6 +3,7 @@
     <Presentation />
     <MainServices />
     <LogisticalProcedure />
+    <Results />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Presentation from './Prensentation.vue';
 import MainServices from './MainServices.vue';
 import LogisticalProcedure from './LogisticalProcedure.vue';
+import Results from './Results.vue';
 
 export default {
   name: "Main",
   components:{
     Presentation,
     MainServices,
-    LogisticalProcedure
+    LogisticalProcedure,
+    Results
   }
 }
 </script>
