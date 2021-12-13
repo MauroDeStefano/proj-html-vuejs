@@ -6,7 +6,7 @@
 
       <div class="mt-5 col-8 mds-left-presentation">
         <p class="text-emp mds-text-wide-s">WHO WE ARE</p>
-        <h2 class="mb-3"><span class="text-emp bg-text-emp"><i class="far fa-gem"></i> Excellence </span>  in Transport</h2>
+        <h2 class="mb-3"><span class="text-emp bg-text-emp rounded"><i class="far fa-gem"></i> Excellence </span>  in Transport</h2>
         <p class="mds-text-gray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque voluptas vel et! Repudiandae, dolore placeat vero odit nihil minus voluptatum tenetur quibusdam numquam nam? Consequuntur ipsam assumenda perferendis voluptatum commodi!</p>
         <p class="mds-text-gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam corrupti architecto repellendus explicabo? Sint esse ad sunt cumque, sed corporis delectus quam ratione voluptates similique blanditiis veniam, distinctio error minima?</p>
         <p class="text-cit mds-text-gray ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam corrupti ab non eius omnis culpa quidem rem quas pariatur molestias, placeat provident tempora officia numquam! Temporibus nisi ad voluptas aperiam.</p>
