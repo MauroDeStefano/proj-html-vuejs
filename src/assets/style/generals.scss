@@ -1,0 +1,37 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.mds-btn{
+  background-color: #058283;
+  border: 1px solid #058283 !important;
+  color: white;
+}
+
+.mds-btn-empty{
+  border: 1px solid #058283 !important;
+  color: white;
+}
+
+.mds-text-gray{
+  color: #9D9AA9;
+}
+
+.text-emp{
+  color: $text-logo;
+}
+
+.bg-text-emp{
+  background-color: $bg-logo;
+}
+
+.mds-text-title{
+  color: #00A1A2;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 0!important;
+}
+
+.mds-jumbo-text{
+  color: $text-contacts;
+  font-size: 14px;
+}
+
