@@ -5,6 +5,7 @@
     <Procedure />
     <Results />
     <TrustedFeedback />
+    <GetInTouch />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import MainServices from './MainServices.vue';
 import Procedure from './Procedure.vue';
 import Results from './Results.vue';
 import TrustedFeedback from './TrustedFeedback.vue';
+import GetInTouch from './GetInTouch.vue';
 
 export default {
   name: "Main",
@@ -22,7 +24,8 @@ export default {
     MainServices,
     Procedure,
     Results,
-    TrustedFeedback
+    TrustedFeedback,
+    GetInTouch
   }
 }
 </script>

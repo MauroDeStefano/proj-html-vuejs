@@ -38,12 +38,16 @@
   font-weight: 900!important;
 }
 
+.mds-primary-color{
+  color: $primary-color;
+}
+
 .bg-text-emp{
   background-color: $bg-logo;
 }
 
 .mds-text-title{
-  color: #00A1A2;
+  color: $primary-color;
   font-weight: 700;
   font-size: 12px;
   margin-bottom: 0!important;
