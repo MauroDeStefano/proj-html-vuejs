@@ -2,7 +2,7 @@
   <div class="mds-service-section">
     <div class="container">
       <p class="text-emp mds-text-wide-s">ROAD TRANSPORT</p>
-      <h2 class="mb-3 text-white">Main <span class="text-emp bg-text-emp text-white rounded">Services</span></h2>
+      <h2 class="mb-3 text-white mds-title-wide">Main <span class="text-emp bg-text-emp text-white rounded">Services</span></h2>
       <div class="d-flex justify-content-between mt-2 mb-5">
         <p class=" text-white w-75 ">With all of this expertise anda capability comes an unrivalled commitment to customer service. We will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
         
@@ -49,8 +49,6 @@ export default {
 
     h2{
       
-      font-weight: 900;
-
       span{
         padding: 0 7px;
         margin: 0 2px;

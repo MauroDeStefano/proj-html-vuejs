@@ -3,7 +3,7 @@
     <div class="container">
       <p class="text-emp mds-text-wide-s fw-bolder">HOW IT WORKS IN PRACTICE</p>
       <h2 class="mb-3 fw-bolder"><span class="text-emp bg-text-emp px-2 rounded">Logistical</span> Procedure</h2>
-      <p class="mds-text-gray">We work with innovative methologies to ensure the the entire delivery process is done from start to finish as planned.</p>
+      <p class="mds-text-gray w-75 m-auto">We work with innovative methologies to ensure the the entire delivery process is done from start to finish as planned.</p>
     </div>
     <div class="mds-arificial-hr">
     <div class="row mds-this-row">
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import logisticalData from '../assets/data/logisticalData.js'; 
+import logisticalData from '../assets/data/procedureData.js'; 
 
 export default {
-  name: "logisticalProcedure",
+  name: "Procedure",
   data(){
     return{
       logisticalData
