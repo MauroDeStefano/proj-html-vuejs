@@ -1,5 +1,5 @@
 
-// this is where I create the bar over the jumbotron whit all the contacs
+//the bar over the jumbotron whit all the contacs
 
 <template>
   <div class="mds-contact">
@@ -7,12 +7,13 @@
       <div>
         <i class="fas fa-clock"></i> Open Hours: Mon - Sat - 9:00 - 18:00
       </div>
+      <!-- The contacts are taken in file .js for help che change if needed and for add any url you need -->
       <div class="d-flex justify-content-around" v-for="(item, index) in contactsData" :key="index">
         <div class="mds-number px-2"><i :class="item.phone.logo"></i> {{item.phone.content}}</div>
         <div class="mds-mail px-2"><i :class="item.mail.logo"></i> {{item.mail.content}}</div>
-        <div class="mds-social px-2"><i :class="item.facebook.logo"></i></div>
-        <div class="mds-social px-2"><i :class="item.twitter.logo"></i></div>
-        <div class="mds-social px-2"><i :class="item.linkedin.logo"></i></div>
+        <div class="mds-social px-2"><a :href="item.facebook.content"><i :class="item.facebook.logo"></i></a></div>
+        <div class="mds-social px-2"><a :href="item.twitter.content"><i :class="item.twitter.logo"></i></a></div>
+        <div class="mds-social px-2"><a :href="item.linkedin.content"><i :class="item.linkedin.logo"></i></a></div>
       </div>
     </div>
   </div>

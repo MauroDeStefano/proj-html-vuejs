@@ -6,6 +6,8 @@
        <p class="mds-text-gray w-75 m-auto">
          We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for recognition.
        </p>
+
+       <!-- Cycle of cards containing the feedbacks -->
        <div class="row mt-5">
          <div class="mds-card-trusted col text-start text-white" 
          v-for="(item, index) in trustedData" :key="index">

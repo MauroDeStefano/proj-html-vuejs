@@ -1,6 +1,7 @@
 <template>
   <div class="foot-menu">
     <div class="container">
+      <!-- Same Cycle as in Get in Touch and the Header -->
       <div class="row">
         <div v-for="(item, index) in contacts" :key="index" class="col mds-text-gray mds-foot-contact">
           <Logo />
@@ -17,7 +18,7 @@
           <h4 class="text-white mds-title-wide">{{menu.name}}</h4>
           <ul class="mds-foot-list">
             <li v-for="(item, index) in menu.contents" :key="index">
-              <i class="fas fa-chevron-right"></i>{{item.name}}
+              <a :href="item.url" class="mds-hover"><i class="fas fa-chevron-right"></i>{{item.name}}</a>
             </li>
           </ul>
         </div>
@@ -80,6 +81,12 @@ export default {
   li{
     line-height: 30px;
 
+    a{
+      text-decoration: none;
+      color: $gray-color;
+
+    }
+ 
     i{
       margin-right: 20px;
     }

@@ -8,12 +8,14 @@
         
         <a class=" btn mds-btn-empty mds-btn-service fw-bold" href="">SEE ALL</a>
       </div>
+
+      <!-- Cycle of the services -->
       <div class="row">
         <div v-for="(item,index) in mainServicesData" :key="index" class="col mds-services-card mx-3">
           <i :class="item.fontAwsome" class="mds-main-i"></i>
           <h5 class="fw-bolder">{{item.name}}</h5>
           <p>{{item.description}}</p>
-          <i class="fas fa-arrow-right"></i>
+          <a :href="item.url"><i class="fas fa-arrow-right mds-hover"></i></a>
         </div>
       </div>
     </div>

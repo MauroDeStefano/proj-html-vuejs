@@ -5,6 +5,7 @@
         <p class="text-emp mds-text-wide-s fw-bolder">SEND A MESSAGE</p>
         <h2 class="mb-3 fw-bolder mds-title-wide">Get in <span class="text-emp bg-text-emp px-2 rounded ">Touch</span></h2>
         <p class="mds-text-gray">We will respond to your message as soon as possible.</p>
+        <!-- FAKe form -->
         <input type="text" placeholder="Name" class="mds-right-margin my-3 rounded"><input type="text" placeholder="Email" class="rounded">
         <input type="text" placeholder="Phone" class="mds-right-margin mb-3 rounded"><select name="" id="selectioninfo" class="rounded">
           <option value="">More info</option>
@@ -18,6 +19,7 @@
         <h4 class="fw-bolder mb-4">Example Inc.</h4>
         <p class="mds-text-gray">Lorem ipsum sit amet, consectetur adipiscing elit.</p>
         <p class="mds-text-gray">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+        <!-- cycle of the company info, same as in the header -->
         <div class="mds-primary-color " v-for="(item, index) in contacts" :key=index>
           <p class="mb-3"><i :class="item.phone.logo"></i> {{item.phone.content}}</p>
           <p class="mb-3"><i :class="item.mail.logo"></i> {{item.mail.content}}</p>

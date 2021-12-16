@@ -1,8 +1,10 @@
 <template>
   <div>
-    <Header />
-    <Main />
-    <Footer />
+    <Header /> <!-- Qui all' interno si trovano i componenti: Contacts e Jumbotron-->
+
+    <Main /> <!-- Qui all' interno si trovano i componenti: Presentation, MainServices, Procedure, Results, TrustedFeedback e GetInTouch -->
+
+    <Footer /> <!-- Qui all' interno si trovano i componenti: Footer e Credits --> 
   </div>
 </template>
 

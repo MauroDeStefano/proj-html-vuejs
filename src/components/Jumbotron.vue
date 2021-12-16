@@ -1,15 +1,22 @@
 <template>
   <div class="mds-jumbotron">
     <div class="mds-darker-bg">
+
       <div class="mds-nav container d-flex justify-content-between">
+        <!-- Logo made in a vue file -->
         <div class="logo"><Logo /></div>
+        <!-- NAV BAR -->
         <div class="mds-menu text-white ">
-          <a class="px-3" v-for="(item, index) in navBtn" 
-          :key="index">{{item.name}}</a>
-          <i class="far fa-user px-3"></i>
+          <a class="px-3 mds-hover" v-for="(item, index) in navBtn" 
+          :key="index"
+          :href="item.url">
+          {{item.name}}</a>
+          <a href="www.yourprofile.example.commmm" class="mds-hover"><i class="far fa-user px-3"></i></a>
           <a class="btn btn-info mds-btn ">GET IN TOUCH</a>
         </div>
       </div>
+
+      <!-- This is where we print the jumbotron contain. -->
       <div class="container mt-5">
         <div class="row pt-5">
           <div class="col-4">

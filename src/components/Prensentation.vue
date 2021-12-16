@@ -23,6 +23,8 @@
 
       <div class="mt-5 col-4 mds-right-presentation">
         <p class="fw-bold">Vehicle Types</p>
+
+        <!-- a cycle that take all the kind of trucks -->
         <div class="row mds-truck-type" v-for="(item, index) in truckWeigth" :key="index">
           <div class="col-4">
             <img class="w-100 mds-img-type" :src="item.image" :alt="item.name">
@@ -32,6 +34,8 @@
             <p class="mds-text-gray">Max Weight {{item.maxWeight}} Kg</p>
           </div>
         </div>
+
+        <!-- cycle to have all the certification we want to show -->
         <div>
           <p class="fw-bold">Certifications</p>
           <img class="mds-certificate" v-for="(item, index) in certifications" :key="index" :src="item.logo" :alt="item.name">

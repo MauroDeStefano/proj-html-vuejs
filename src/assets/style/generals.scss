@@ -4,6 +4,11 @@
   min-width: 1000px!important;
 }
 
+.mds-hover:hover{
+  filter: opacity(50%);
+  cursor: pointer;
+}
+
 .mds-btn{
   background-color: #058283;
   border: 1px solid #058283 !important;
@@ -16,7 +21,7 @@
 }
 
 .mds-text-gray{
-  color: #9D9AA9;
+  color: $gray-color;
 }
 
 .text-cit{

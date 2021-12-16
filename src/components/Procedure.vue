@@ -6,6 +6,8 @@
       <p class="mds-text-gray w-75 m-auto">We work with innovative methologies to ensure the the entire delivery process is done from start to finish as planned.</p>
     </div>
     <div class="mds-arificial-hr">
+
+      <!-- Cycle the logistical procedures -->
     <div class="row mds-this-row">
       <div class="col mds-logistical-card" v-for="(item, index) in logisticalData" :key="index"> 
         <div class="mds-logistical-number">0{{index + 1}}</div>
